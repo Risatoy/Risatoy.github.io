@@ -1,0 +1,44 @@
+body, h2, div {
+	font-family: 'Quicksand', sans-serif;
+}
+
+#navigation {
+	margin-bottom: 0;
+	padding: 10px;
+	font-size: 120%;
+}
+
+#header {
+	color: white;
+	padding: 200px;
+}
+
+
+.box {
+	background-position: center;
+	height: 500px;
+	position: relative;
+	background-size: cover;
+	padding: 70px;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+#contact-box {
+	padding: 50px;
+	font-size: 120%;
+
+}
+
+#social-buttons {
+	padding: 30px;
+	font-size: 200%;
+}
+
+a {
+	text-decoration: none;
+	color: black !important;
+}
