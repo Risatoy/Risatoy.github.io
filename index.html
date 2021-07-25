@@ -6,15 +6,9 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Quicksand:500" rel="stylesheet">
 
-	 <!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
+	 <!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  <!-- Font Awesome cdn -->
 
 	<style>
@@ -40,26 +34,20 @@
 </head>
 <body style="background-image: url(images/background.jpg); background-attachment: fixed;">
 	<div id="wrap">
-	<nav class="navbar navbar-default navbar-static-top" id="navigation">
-	  <div class="container">
-	    <div class="navbar-header">
-	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-	        <span class="sr-only">Toggle navigation</span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	      </button>
-	      <a class="navbar-brand" href="#">Risa Toy.</a>
-	    </div>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="#">Risa Toy.</a>
 
-	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	      <ul class="nav navbar-nav navbar-right">
-<!--	        <li><a href="files/RisaToyoshima_resume.pdf">Resume</a></li>-->
-	        <li><a href="#contact">Contact</a></li>
-	      </ul>
-	    </div>
-	  </div>
-	</nav>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+			  <ul class="navbar-nav">
+				<li class="nav-item">
+				  <a class="nav-link" href="#contact">Contact</a>
+				</li>
+			  </ul>
+			</div>
+		  </nav>	
 
 
 	<div id="header" class="text-center box1" style="background-image: url(images/header.jpg)">
@@ -72,54 +60,40 @@
 	<div class="text-center box2">
 		<h2> I made ..  </h2>
 
-		<div class="row text-center" style="display:flex, flex-wrap: wrap;" id="box-projects">
-			<div class="col-md-3 col-sm-6 d-flex">
-				<div class="thumbnail">
-					<a href="https://risatoy.github.io/sort-visualizer/">
-						<img src="images/sortvisualizer_screenshot.png">
-					</a>
-					<div class="caption">
-						<h4>Sort Visualizer</h4>
+		<dir class="row ">
+			<dir class='col-sm-4'>
+				<div class="card" style="width: 18rem;">
+					<img src="images/sortvisualizer_screenshot.png" class="card-img-top">
+					<div class="card-body">
+						<h5 class="card-title">Sort Visualizer</h5>
+						<p class="card-text">Created a web app using React framework to visualize sorting algorithms such as merge sort, quick sort, selection sort, insertion sort and bubble sort. <br><br></p>
+						<a href="https://github.com/risatoy/sort-visualizer" class="btn btn-primary">GitHub</a>
 					</div>
-					<p>
-						Created a web app using React framework to visualize sorting algorithms such as merge sort, quick sort, selection sort, insertion sort and bubble sort. <br><br>
-
-						<a href="https://github.com/risatoy/sort-visualizer" class="btn btn-info">GitHub</a>
-					</p>
 				</div>
-			</div>
+			</dir>
 
-			<div class="col-md-3 col-sm-6 d-flex">
-				<div class="thumbnail">
-					<a href="https://agile-reef-60707.herokuapp.com/">
-						<img src="images/kiddykode_screenshot.jpg">
-					</a>
-					<div class="caption">
-						<h4>KiddyKode.</h4>
+			<dir class='col-sm-4'>
+				<div class="card" style="width: 18rem;">
+					<img src="images/kiddykode_screenshot.jpg" class="card-img-top">
+					<div class="card-body">
+						<h5 class="card-title">KiddyKode.</h5>
+						<p class="card-text">Designed and co-wrote the website to help young students learn about hackathons and how to code from websites. <br><br></p>
+						<a href="https://github.com/risatoy/KiddyKode" class="btn btn-primary">GitHub</a>
 					</div>
-					<p>
-						Designed and co-wrote the website to help young students learn about hackathons and how to code from websites. <br><br>
-						<a href="https://github.com/risatoy/KiddyKode" class="btn btn-info">GitHub</a>
-					</p>
 				</div>
-			</div>
+			</dir>
 
-			<div class="col-md-3 col-sm-6 d-flex">
-				<div class="thumbnail">
-					<a href="https://sheltered-island-17339.herokuapp.com/">
-						<img src="images/rnachain_screenshot.jpg">
-					</a>
-					<div class="caption">
-						<h4>RNA Chain</h4>
+			<dir class='col-sm-4'>
+				<div class="card" style="width: 18rem;">
+					<img src="images/rnachain_screenshot.jpg" class="card-img-top">
+					<div class="card-body">
+						<h5 class="card-title">RNA Chain</h5>
+						<p class="card-text">Created a single page application with C++ program that constructs all the possible original RNA chains from given fragments. <br><br></p>
+						<a href="https://github.com/risatoy/RNAchain" class="btn btn-primary">GitHub</a>
 					</div>
-					<p>
-						Created a single page application with C++ program that constructs all the possible original RNA chains from given fragments. <br><br>
-						<a href="https://github.com/risatoy/RNAchain" class="btn btn-info">GitHub</a>
-					</p>
 				</div>
-			</div>
-
-		</div>
+			</dir>
+		</dir>
 
 	</div>
 
@@ -127,18 +101,8 @@
 		<h2> with these languages!</h2>
 		<br >
 		<div class="row">
-			<div class="col-sm-2 col-sm-offset-3">
+			<div class="col-sm-4 col-sm-offset-3">
 				<h3>Frontend</h3>
-			</div>
-			<div class="col-sm-2">
-				<h3>Backend</h3>
-			</div>
-			<div class="col-sm-2">
-				<h3>Other</h3>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-sm-2 col-sm-offset-3">
 				<ul>
 					<li>JavaScript</li>
 					<li>ReactJS</li>
@@ -147,7 +111,8 @@
 					<li>Bootstrap</li>
 				</ul>
 			</div>
-			<div class="col-sm-2">
+			<div class="col-sm-4">
+				<h3>Backend</h3>
 				<ul>
 					<li>Python</li>
 					<li>NodeJs</li>
@@ -157,7 +122,8 @@
 					<li>Ruby on Rails</li>
 				</ul>
 			</div>
-			<div class="col-sm-2">
+			<div class="col-sm-4">
+				<h3>Other</h3>
 				<ul>
 					<li>Heroku</li>
 					<li>PostgreSQL</li>
@@ -169,22 +135,7 @@
 
 	<div class="text-center box2">
 			<h2> Currently I am working on .. </h2>
-
-			<div class="row text-center" style="display:flex, flex-wrap: wrap;" id="box-projects">
-				<div class="col-md-3 col-md-offset-3 col-sm-6">
-					<div class="thumbnail">
-						<a href="https://pacific-cliffs-77403.herokuapp.com/">
-							<img src="images/calendarapp_screenshot.jpg">
-						</a>
-						<div class="caption">
-							<h4>Calendar App</h4>
-						</div>
-						<p>
-							<a href="calendar.html" class="btn btn-info">More Info</a>
-						</p>
-					</div>
-				</div>
-			</div>
+			
 	</div>
 
 	<div class="text-center box1" style="background-image: url(images/adventure.jpg)">
@@ -208,5 +159,10 @@
 
 	</div>
 </div>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
 </body>
 </html>
