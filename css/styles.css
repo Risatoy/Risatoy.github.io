@@ -68,3 +68,7 @@ a {
 #box-projects {
 	padding: 50px;
 }
+
+.badge.badge-skill {
+	background-color: #dce3e8;
+}
