@@ -87,3 +87,28 @@ img.avator {
 .social-link:hover {
 	color: rgba(255, 255, 255, 0.774);
 }
+
+.card.project-card {
+	border: none;
+}
+
+.card.project-card img {
+	border-radius: 1rem;
+	box-shadow: 5px 2.5px 2.5px rgb(223, 222, 222);
+}
+
+.break {
+	width: 75px;
+	height: 2px;
+	background-color: #cdd6dc;
+	margin: 1.5rem 0;
+}
+
+a.project-btn {
+	color: #fff;
+	background-color: rgb(31, 46, 60);
+	font-size: 1rem;
+	line-height: 1.5rem;
+	padding: 0.7rem 1.5rem;
+	transition-duration: 0.35s;
+}
