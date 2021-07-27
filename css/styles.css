@@ -112,3 +112,22 @@ a.project-btn {
 	padding: 0.7rem 1.5rem;
 	transition-duration: 0.35s;
 }
+
+#contact-box #coffee-box{
+	padding: 70px 0 35px;
+}
+
+#contact-box #coffee-box a {
+	color: white;
+	font-size: 1.5rem;
+	text-decoration: none;
+}
+
+#contact-box #coffee-box a:hover{
+	transform: scale(1.5);
+}
+
+#contact-box #coffee-box a i{
+	color: rgb(46, 117, 76);
+
+}
