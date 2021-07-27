@@ -10,19 +10,18 @@ body, h2, div {
 
 #header {
 	color: white;
-	padding: 200px;
 }
 
-#header-box {
+/* #header-box {
 	outline: white solid thick;
 	width: 370px;
 	padding: 30px;
 	margin: auto;
-}
+} */
 
 .box1 {
 	background-position: center;
-	min-height: 500px;
+	min-height: 370px;
 	position: relative;
 	background-size: cover;
 	padding: 70px;
@@ -30,7 +29,7 @@ body, h2, div {
 
 .box2 {
 	background-position: center;
-	min-height: 630px;
+	min-height: 600px;
 	position: relative;
 	background-size: cover;
 	padding: 70px;
@@ -55,14 +54,13 @@ ul {
 
 }
 
-#social-buttons {
+/* #social-buttons {
 	padding: 30px;
 	font-size: 200%;
-}
+} */
 
 a {
 	text-decoration: none;
-	color: black !important;
 }
 
 #box-projects {
@@ -71,4 +69,20 @@ a {
 
 .badge.badge-skill {
 	background-color: #dce3e8;
+}
+
+img.avator {
+	border: 3px solid #fff;
+	border-radius: 50%;
+	width: 37%;
+	height: auto;
+}
+
+.social-link{
+	color: #fff;
+	font-size: 2rem;
+}
+
+.social-link:hover {
+	color: rgba(255, 255, 255, 0.774);
 }
