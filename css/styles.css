@@ -98,10 +98,10 @@ img.avator {
 }
 
 .break {
-	width: 75px;
+	width: 120px;
 	height: 2px;
 	background-color: #cdd6dc;
-	margin: 1.5rem 0;
+	margin: 1.5rem auto;
 }
 
 a.project-btn {
